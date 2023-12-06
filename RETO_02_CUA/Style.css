@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(2.jpg);       
+}
+
+.FormularioRegistro{
+    width: 700px;
+    background: rgb(207, 207, 207);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+}
+
+.FormularioRegistro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controles{
+    width: 100%;
+    background: #a6c9ec;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #a6c9ec;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.FormularioRegistro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.FormularioRegistro a{
+    color: black;
+    text-decoration: none;
+}
+
+.FormularioRegistro a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.FormularioRegistro .boton{
+    width: 100%;
+    background: #a6c9ec;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+
+}

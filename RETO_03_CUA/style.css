@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+/* barra de navegacion */
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: aquamarine;
+    position: fixed;
+    z-index: 100;
+}
+.brand{
+    margin-left: 5%;
+    line-height: 10vh;
+}
+.brand a{
+    color: black;
+    font-size: 25px;
+}
+
+ul{
+    float: right;
+    margin-right: 5%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 10vh;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+/* Galeria */
+.titulo_portafolio{
+    background: #f2f2f2;
+    padding-top: 20vh;
+    text-align: center;
+    padding-bottom: 2vh;
+    padding-bottom: 3vh;
+}
+
+.galeria_contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+}
+
+.imagen_productos{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen_productos > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover_galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(187, 66%, 48%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover_galeria img{
+    width: 50px;
+}
+
+.hover_galeria p{
+    color: #fff;
+}
+
+.imagen_productos:hover .hover_galeria{
+    transform: scale(1);
+}
+
+
+
+/* formulario */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
